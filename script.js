@@ -56,3 +56,18 @@ searchBtn.addEventListener('click',
                     </div>
                 </div>
             `;
+            
+            insertCountryChild.insertAdjacentHTML('beforeend', html);
+            if (insertCountryChild.innerHTML != '') {
+                searchBtn.innerHTML = `Search`;
+            }
+            searchBtn.addEventListener('click', 
+                () => {
+                    insertCountryChild.innerHTML = '';
+                }
+            );  
+        }
+
+        getCountrySearchData();
+    }
+);
