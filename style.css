@@ -1,0 +1,32 @@
+:root{
+    --bg-primary: rgb(11, 11, 148);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: var(--bg-primary);
+    color: white;
+    font-size: 1.7rem;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 96vw;
+    background-color: rgba(248, 247, 247, 0.637);
+}
+.search_section{
+    background-color: black;
+    width: 30vw;
+    height: 77vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
