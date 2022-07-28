@@ -30,3 +30,52 @@ main{
     justify-content: center;
     flex-direction: column;
 }
+.section_input_area{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 1vh auto;
+}
+.country_input{
+    width: 90%;
+    padding: 1vh;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    border: 0;
+}
+.search_btn{
+    /* width: 20%; */
+    /* border: 0; */
+    border-radius: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: black;
+    border: 2px solid white;
+    margin: 1vh auto; 
+    padding: 1.5vh 2vw;
+    font-size: 1.2rem;
+}
+.search_section_txt{
+    font-size: 1.4rem;
+    text-align: center;
+    width: 90%;
+    margin: 1vh auto;
+}
+
+.insert_country_child{
+    /* height: 100%; */
+    align-self: center;
+}
+.card{
+    width: 24vw;
+    height: 67vh;
+    align-self: center;
+    /* border: 2px solid blue; */
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.363);
+}
