@@ -1,12 +1,5 @@
 //Tablet view
 @media (max-width: 1100px) {
-  body {
-    background-color: blue;
-  }
-  
-  body{
-    background-color: black;
-  }
   .card{
     width: 32vw;
   }
