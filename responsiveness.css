@@ -1,7 +1,7 @@
 //Tablet view
 @media(max-width: 1100px){
   .card{
-    width: 30vw;
+    width: 32vw;
   }
   .card_txt ul li{
     font-size: 1rem;
