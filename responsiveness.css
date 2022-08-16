@@ -9,5 +9,11 @@
   .main_stat{
     font-size: 1.2rem;
   }
-  
+
+}
+
+@media (max-width: 850px) {
+  .search_section_txt{
+    display: none;
+  }
 }
